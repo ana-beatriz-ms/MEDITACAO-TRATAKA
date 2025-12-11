@@ -5,7 +5,7 @@ const btoSair = document.getElementById('btSAIR');
 const circle = document.querySelector('circle');
 
 // Circunferência do círculo (2 * PI * 140)
-const circunferencia = 2 * Math.PI * 140;
+const circunferencia = 2 * Math.PI * 190;
 
 circle.style.strokeDasharray = circunferencia;
 circle.style.strokeDashoffset = circunferencia;
