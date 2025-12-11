@@ -94,3 +94,11 @@ circle {
 #btSAIR:hover{
     opacity: 1;
 }
+
+p {
+  font-size: 1rem;  
+  color: #666666;
+  max-width: 400px;
+  margin: -45px auto 40px auto;
+  line-height: 1.5;
+}
