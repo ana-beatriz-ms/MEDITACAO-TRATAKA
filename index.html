@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meditação TRATAKA</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div id="menu">
+        <h1>TRATAKA</h1>
+        <button class="btTEMPO" onclick="comecarMeditacao(5)">5 minutos</button>
+        <button class="btTEMPO" onclick="comecarMeditacao(10)">10 minutos</button>
+        <button class="btTEMPO" onclick="comecarMeditacao(20)">20 minutos</button>
+    </div>
+
+    <div id="areaMeditacao">
+        <svg>
+            <circle cx="150" cy="150" r="200"></circle>
+        </svg>
+        <div class="ponto"></div>
+    </div>
+
+    <button id="btSAIR" onclick="resetApp()">Encerrar</button>
+    <script src="script.js"></script>
+</body>
+</html>
